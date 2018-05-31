@@ -1,0 +1,63 @@
+.nav-box a{
+    margin:0;
+    box-sizing: border-box;
+    display: block;
+    height:50px;
+    line-height: 50px;
+    cursor: pointer;
+    width:100%;
+    color: #13271A;
+    position: relative;
+} 
+.nav-box a:hover {
+    outline: none;
+    background-color: #E7F3EB;
+    color: #14823B;
+}
+.nav-box a.router-link-active{
+    background-color: #E7F3EB;
+    color: #14823B;
+    border-left:3px solid #13823A;
+}
+.nav-box a i{
+    position: absolute;
+    top:14px;;
+    left:18px;
+    height:24px;
+    line-height: 24px;
+    width:24px;
+    font-size:20px;
+    font-weight:500;
+}
+/******更改局部图标******/
+.nav-box a i.icon-yunying{
+   font-size: 24px;
+}
+.nav-box a i.icon-chongzhi{
+    font-size: 24px;
+}
+.nav-box a i.icon-jiesuantongji{
+    font-weight: 200;
+}
+
+/**************/
+.nav-box a span{
+    display: block;
+    height: 50px;
+    line-height:50px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    width:100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-left:64px;
+
+}
+.nav-box a span:first-child{
+    line-height: 48px;
+    background: #465666;
+}
+
+    
